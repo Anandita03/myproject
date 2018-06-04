@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <!-- <link rel="stylesheet" href="assets/css/reg-form.css"> -->
+    </head>
+    <body>
+    <div class="container">
+      <h2 class="has-text-centered is-size-2 is-size-6-mobile has-text-weight-bold">Registration Form</h2>
+      <form id="form" class="pure-form" onsubmit="showSucessMessage()" method="GET" action="">
+        <div class="field">
+          <label class="label">First Name</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="text" placeholder="Text input" id="fname">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+                </div>
+            </div>
+            <div class="field">
+              <label class="label">Last Name</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="text" placeholder="Text input" id="lname">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                  </span>
+                </div>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-danger" type="email" placeholder="Email input" id="email">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+                <p class="help is-danger">This email is invalid</p>
+            </div>
+            <div class="field">
+              <label class="label">Gender</label>
+                <div class="control">
+                  <label class="radio">
+                    <input type="radio" name="answer">
+                      Female
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="answer">
+                      Male
+                  </label>
+                </div>
+            </div>
+            <div class="field is-grouped">
+                <div class="control"><button type="submit" class="button is-primary">Submit</button></div>
+                <div class="control"><button class="button is-danger">Cancel</button></div>
+            </div>
+        </form>
+      </div>
+  </body>
+</html>
+<script type="text/javascript">
+ 
+      var x=document.getElementById('fname');
+      var y=document.getElementById('lname');
+      var z=document.getElementById('email');
+      document.querySelector('form.pure-form').addEventListener('submit',function(e)
+      {
+        e.preventDefault();
+        console.log(x.value);  
+        console.log(y.value); 
+        console.log(z.value);  
+      })
+  
+function showSucessMessage(){
+      alert('Thank you');
+  }
+</script>

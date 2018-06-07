@@ -31,6 +31,14 @@
     padding-top:20px;
     margin-right:150px;
 }
+.navbar-end a
+{
+    color:white;
+}
+.navbar-end a:hover
+{
+    font-size:30px;
+}
 .has-bg-img
 {
     background-image: url("images/layer-365.png");
@@ -69,7 +77,7 @@
 .button
 {
     background-color: #f47646 !important;
-    border-radius: 0;
+    border-radius: 0px;
 }
 .circle
 {
@@ -294,6 +302,21 @@ input[type=email]
     padding-top:5px;
     padding-bottom: 5px;
 }
+.btn
+{
+    background-color: black;
+    border:0;
+    color:#ffffff;
+}
+.fab a
+{
+    color:white;
+}
+.fab a:hover
+{
+   color:#f47646;
+   font-size:40px;
+}
 
 /*Footer styling ends*/
 
@@ -365,5 +388,8 @@ input[type=email]
     {
         padding:0;
     }
-   
+    .process-steps
+    {
+        width:600px;
+    }
 }

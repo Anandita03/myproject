@@ -107,7 +107,7 @@ body
 {
     display:inline-block;
     font-size:14px;
-    padding-top:16px;
+    padding-top:20px;
     padding-left:5px;
     padding-bottom:29px;
 }
@@ -261,6 +261,7 @@ body
     height: 29px;
     font-weight: bold;
     margin-bottom:0;
+    font-size:15px;
 }
 .process-keys p
 {
@@ -268,7 +269,8 @@ body
     height: 80px;
     color: #333333;
     margin-top:0;
-    margin-bottom:0;  
+    margin-bottom:0;
+    padding-top:10px;  
 }
 .service
 {
@@ -571,6 +573,11 @@ input[type=email]
     background-color: #050506;
     padding:0px;
 }
+.submit
+{
+    background-color: #f47646;
+    height: 34px;
+}
 .sub-info p
 {
     color:#ffffff;
@@ -600,6 +607,10 @@ input[type=email]
     padding-bottom: 24px;
     margin-top:0;
     margin-bottom: 0;
+}
+.top
+{
+    float:right;
 }
 /*footer ends*/
 /*for i-pad*/
@@ -735,8 +746,8 @@ input[type=email]
     }
     .layer-389
     {
-        width:768px;
-        height:550px;
+        width:595px;
+        height:367px;
     }
     .flexibility h2
     {
@@ -747,28 +758,20 @@ input[type=email]
         text-align: left;
         color: #ffffff;
         margin-left: 136px;
-        top:1430px;
+        top:1460px;
     }
     .underline-2
     {
-        top:1490px;
+        top:1518px;
     }
     .flexibility p
     {
-        height: 56px;
-        font-size: 18px;
-        width:620px;
-        text-align: center;
-        color: #f47646;
-        margin-left:48px;
-        margin-top: 46px;
-        margin-bottom: 0;
-        top:1480;
+        display:none;
     }
     .design-2
     {
-        top:1427;
-        margin-left:193px;
+        top:1389px;
+        margin-left:171px;
     }
 /*second section ends*/
 /*third section starts*/
@@ -847,6 +850,7 @@ input[type=email]
     {
         padding-top:110px;
         position:relative;
+        height:402px;
     }
     .layer-387
     {
@@ -867,6 +871,7 @@ input[type=email]
         object-fit: contain;
         position:absolute;
         top:26px;
+        left:80px;
     }
     .info
     {
@@ -874,7 +879,7 @@ input[type=email]
         max-width:1400px;
         display:inline-table;
         position:absolute;
-        top:2320px;
+        top:2205px;
     }
     .copyright
     {
@@ -920,4 +925,44 @@ input[type=email]
     {
         padding:5px;
     }
+    .process-keys
+    {
+        padding-right:15px;
+    }
+    .paltan
+    {
+        margin-left:0px;
+    }
+    .kabaddi
+    {
+        margin-left:20px;
+    }
+    .mumbai
+    {
+        margin-left: 21px;    
+    }
+    .league
+    {
+        margin-left:15px;
+    }
+    .arrow
+    {
+        margin-left: 6px;
+    }
+    .group-1
+    {
+        left:10px;
+    }
+    .sub-info h5
+    {
+        margin-bottom: 0;
+    }
+    /* .layer-387
+    {
+        width:600px;
+    }
+    .copyright
+    {
+        width:600px;
+    } */
 }
